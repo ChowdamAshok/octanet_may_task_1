@@ -153,6 +153,14 @@ body {
       background-clip: text;
       -webkit-text-fill-color: transparent;
   }
+  @media (max-width: 768px){
+    .container h4{
+      font-size: 15px;
+    }
+    .container h1{
+      font-size: 25px;
+    }
+  }
   #getintouch{
     display: flex;
     justify-content: space-between;
@@ -239,6 +247,7 @@ body {
   .inclusion h4{
     font-size: 20px;
     padding: 20px;
+    color: antiquewhite;
   }
   .inclusion button{
     padding: 5px;
